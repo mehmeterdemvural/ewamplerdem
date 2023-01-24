@@ -7,3 +7,50 @@
   font-size: 2em;
   text-align: center;
 }
+
+button[type=default] {
+  color: red;
+  border: 2px yellow solid;
+  border-radius: 2px;
+}
+
+button[type=default]:hover {
+  border: none;
+}
+
+button[type=primary] {
+  color: blue;
+  border: 2px black solid;
+}
+
+button[type=primary]:hover {
+  border: none;
+}
+
+button[type=dashed] {
+  color: orange;
+  border: 2px black dashed;
+}
+
+button[type=dashed]:hover {
+  border: none;
+}
+
+button[type=text] {
+  color: black;
+  border: none;
+}
+
+button[type=text]:hover {
+  border: 2px black solid;
+}
+
+button[type=link] {
+  color: orange;
+  border: none;
+}
+
+button[type=link]:hover {
+  border: none;
+  color: blueviolet;
+}
